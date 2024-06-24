@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#txt{
+    color: rgba(2, 29, 74, 0.377);
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+
+}
+
+.header a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+
+}
+
+.header li{
+    float: left;
+}
+
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.header{
+    margin-left: 650px;
+    margin-top: -60px;
+}
+
+
+#p2{
+    margin-top: -80px;
+    margin-left: -350px;
+}
+
+#primary{
+    margin-top: -80px;
+    margin-left: 35px;
+    width: 100px;
+}
+
+.Home{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 400px;
+}
+
+.head1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+   padding-top: 50px;
+   padding-left: 100px;
+}
+
+.head2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 100px;
+}
+
+.industry{
+    margin-left: 650px;
+    margin-top: -120px;
+}
+
+.Content{
+    margin-top: -150px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+
+.Content {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 2s forwards;
+}
+
+.head1{
+        opacity: 0;
+        transform: translateX(-50px);
+        animation: fadeInLeft 2s forwards;
+    
+    
+}
+
+.head2{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 2s forwards;
+
+
+}
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.insta{
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.gmail{
+    height: 30px;
+    width: 30px;
+    margin-left: 300px;
+    margin-top: -60px;
+
+}
+
+.card{
+    width: 18rem;
+}
+
+.carousel{
+    height: 700px;
+    width: 1000px;
+    margin-top: 95px;
+    margin-left: 40px;
+}
+
+.brg{
+    background: linear-gradient(rgba(24, 43, 58, 1),rgba(32, 164, 243, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hr1{
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.About{
+    background-color: rgba(0, 0, 0, 0.896);
+    width: 100%;
+    height: 500px;
+}
+
+.digital{
+    height: 150px;
+    width: 150px;
+    margin-left: -700px;
+}
+
+.market{
+    margin-left: 90px;
+}
+
+.ab{
+    color: white;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+.About p{
+    margin-left: 600px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.strategic{
+    background-color: rgba(0, 0, 0, 0.815) ;
+    width: 100%;
+    height: 600px;
+}
+
+.strategy{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+#personalise{
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+#multi{
+    margin-left: 600px;
+    margin-top: -400px;
+    cursor: pointer;
+
+}
+
+#data{
+    margin-left: 1000px;
+    margin-top: -430px;
+    cursor: pointer;
+}
+
+.graphics{
+    margin-left: 50px;
+}
+
+.input{
+    padding-top: -200px;
+}
+
+#gh1{
+    background-color: rgba(0, 0, 0, 0.901);
+    height: 300px;
+    width: 500px;
+    margin-left: 700px;
+    text-align: center;
+    color:  rgba(0, 0, 255, 0.851);
+    margin-top: -400px;
+}
+
+.btn-success{
+    padding-top: 100px;
+}
+
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(1, 8, 20, 0.377);;
+    margin-top: 100px;
+}
+
+.fhead{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.query{
+    text-align: center;
+}
+
+.insta1{
+    height: 30px;
+    width: 30px;
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+
+.gmail1{
+    height: 30px;
+    width: 30px;
+    margin-left: 750px;
+    margin-top: -60px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#txt{
+    color: rgba(2, 29, 74, 0.377);
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+
+}
+
+.header a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+
+}
+
+.header li{
+    float: left;
+}
+
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.header{
+    margin-left: 650px;
+    margin-top: -60px;
+    transition: all 0.5s ease-in-out;
+}
+
+.header.active{
+    margin-left: 0;
+}
+
+#p2{
+    margin-top: -80px;
+    margin-left: -350px;
+}
+
+#primary{
+    margin-top: -80px;
+    margin-left: 35px;
+    width: 100px;
+}
+
+.Home{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.head1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.head2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 100px;
+}
+
+.industry{
+    margin-left: 650px;
+    margin-top: -120px;
+}
+
+.Content{
+    margin-top: -150px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+
+.Content {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 2s forwards;
+}
+
+.head1{
+        opacity: 0;
+        transform: translateX(-50px);
+        animation: fadeInLeft 2s forwards;
+    
+    
+}
+
+.head2{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 2s forwards;
+
+
+}
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.insta{
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.gmail{
+    height: 30px;
+    width: 30px;
+    margin-left: 300px;
+    margin-top: -60px;
+
+}
+
+.carousel{
+    height: 700px;
+    width: 1000px;
+    margin-top: 95px;
+    margin-left: 40px;
+}
+
+.brg{
+    background: linear-gradient(rgba(24, 43, 58, 1),rgba(32, 164, 243, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hr1{
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.About{
+    background-color: rgba(0, 0, 0, 0.896);
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.digital{
+    height: 150px;
+    width: 150px;
+margin-left: -700px;
+}
+
+.market{
+    margin-left: 90px;
+}
+
+.ab{
+    color: white;
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+.About p{
+    margin-left: 600px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.strategic{
+    background-color: rgba(0, 0, 0, 0.815) ;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.strategy{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+#personalise{
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+#multi{
+    margin-left: 600px;
+    margin-top: -400px;
+    cursor: pointer;
+
+}
+
+#data{
+    margin-left: 1000px;
+    margin-top: -430px;
+    cursor: pointer;
+}
+
+.graphics{
+    margin-left: 50px;
+}
+
+.input{
+    padding-top: -200px;
+}
+
+#gh1{
+    background-color: rgba(0, 0, 0, 0.901);
+    height: 300px;
+    width: 500px;
+    margin-left: 700px;
+    text-align: center;
+    color:  rgba(0, 0, 255, 0.851);
+    margin-top: -400px;
+}
+
+.btn-success{
+    padding-top: 100px;
+}
+
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(1, 8, 20, 0.377);;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fhead{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.query{
+    text-align: center;
+}
+
+.insta1{
+    height: 30px;
+    width: 30px;
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+
+.gmail1{
+    height: 30px;
+    width: 30px;
+    margin-left: 750px;
+    margin-top: -60px;
+
+}
+
+@media only screen and (max-width:600px){
+    .Home{
+        background-color: rgba(0, 0, 0, 0.808);
+        width: 100%;
+        height: 400px;
+    }
+    .head1{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-top: 50px;
+        padding-left: 30px;
+        font-size: 10px;
+    }
+    
+    .head2{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-left: 30px;
+        font-size: 10px;
+    }
+    
+    .Content{
+        margin-top: 20px;
+        margin-left: 10px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+    
+    .industry{
+        margin-left: 200px;
+        padding-top: 70px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .insta{
+        height: 30px;
+        width: 30px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .gmail{
+        height: 30px;
+        width: 30px;
+        margin-left: 100px;
+        margin-top: -60px;
+    
+    }
+    
+    .brg{
+        background: linear-gradient(rgba(24, 43, 58, 1),rgba(32, 164, 243, 1));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    #hr1{
+        font-size: 10px;
+    }
+    
+    .carousel{
+        height: 300px;
+        width: 300px;
+        margin-top: 95px;
+        margin-left: -40px;
+    }
+    
+    .About{
+        background-color: rgba(0, 0, 0, 0.896);
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .digital{
+        height: 150px;
+        width: 150px;
+        margin-left: -750px;
+        display: none;
+    }
+    
+    .market{
+        margin-left: -20px;
+        height: 100px;
+        width: 100px;
+        margin-top: 80px;
+    }
+    
+    .ab{
+        color: white;
+        text-align: center;
+        margin-top: -120px;
+        font-size: 10px;
+        margin-left: -40px;
+    }
+    
+    .About p{
+        font-size: 10px;
+        margin-left: 50px;
+        color: white;
+        word-wrap: break-word;
+    
+    }
+    
+    .strategic{
+        background-color: rgba(0, 0, 0, 0.815) ;
+        width: 100%;
+        height: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    #personalise{
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .card{
+        width: 150px;
+        height: 300px;
+    }
+
+    .card-title{
+        font-size: 10px;
+    }
+
+    .card-text{
+        font-size: 10px;
+    }
+    
+    #multi{
+        margin-top: -275px;
+        cursor: pointer;
+        margin-left: 190px;
+    
+    }
+    
+    #data{
+        margin-left: 900px;
+        margin-top: -430px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .strategy{
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+        margin-left: 20px;
+        font-size: 10px ;
+    }
+    
+    .foot{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(1, 8, 20, 0.377);;
+        margin-top: 100px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .bg-light{
+        width: 150%;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .graphics{
+        margin-left: 10px;
+        height: 150px;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    
+    #gh1{
+        background-color: rgba(0, 0, 0, 0.901);
+        height: 200px;
+        width: 250px;
+        margin-left: 150px;
+        text-align: center;
+        color:  rgba(0, 0, 255, 0.851);
+        margin-top: -120px;
+    }
+
+    .gh{
+        font-size: 15px;
+    }
+    
+    .btn-success{
+        padding-top: 100px;
+    }
+
+    .insta1{
+        height: 30px;
+        width: 25px;
+        margin-left: 150px;
+        
+    }
+    
+    .gmail1{
+        height: 30px;
+        width: 30px;
+        margin-left: 180px;
+    
+    }
+
+    .buttons{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
